@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bhutta.mmmgwifift.IntentViewActivity"
+    android:gravity="center"
+    android:background="@color/colorBack">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:contentDescription="@string/_3mg_wifift_indicator"
+        android:id="@+id/appImageView"
+        android:src="@drawable/wifi_indicator"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/switch_on_3mgwifi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorAccent"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startStopServer"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="60dp"/>
+
+</LinearLayout>
+

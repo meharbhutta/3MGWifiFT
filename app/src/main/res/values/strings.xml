@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">3MGWifiFT</string>
+    <string name="_3mg_wifift_indicator">3MGWifiFT Indicator</string>
+    <string name="copy_paste_text">Copy and Paste below link in browser</string>
+    <string name="file_transfer_is_not_running">File Transfer is not running</string>
+    <string name="something_wrong">Something Wrong</string>
+    <string name="share_again">Share Again</string>
+    <string name="not_connected_to_network">Not Connected Wifi or Hotspot</string>
+    <string name="server_stopped">File Transfer is Stopped</string>
+    <string name="please_grant">Please Grant All Permission</string>
+    <string name="file_transfer_is_running">File Transfer is running!</string>
+    <string name="about">About</string>
+    <string name="_3mgwifift_logo">3MGWifiFT Logo</string>
+    <string name="no_hardware">No Hardware Supported</string>
+    <string name="no_data_available_for_share">No Data Available For Share</string>
+    <string name="switch_on_3mgwifi">Switch On 3MGWifi</string>
+</resources>

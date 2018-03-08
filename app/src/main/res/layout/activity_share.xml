@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bhutta.mmmgwifift.ShareActivity"
+    android:gravity="center"
+    android:background="@color/colorBack">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:contentDescription="@string/_3mg_wifift_indicator"
+        android:id="@+id/appImageView"
+        android:src="@drawable/wifi_indicator"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:id="@+id/hot_ssid"
+        android:layout_weight="0.1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/hot_pass"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:text="@string/copy_paste_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:enabled="false"
+        android:inputType="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/serveraccess"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="35dp"
+        android:text="@string/file_transfer_is_not_running"
+        android:gravity="center"
+        android:background="@color/colorEditText"
+        android:textColor="@color/colorText"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>
